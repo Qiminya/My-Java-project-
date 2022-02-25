@@ -1,0 +1,283 @@
+#index {
+    background-image: url("../img/index.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: #f6cf99;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 华文楷体;
+    font-size: 18px;
+    color: #000000;
+}
+
+div{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    /*
+    border: red 1px solid;
+     */
+
+}
+
+#header {
+    height: 80px;
+    width: 1500px;
+    margin: 10px;
+}
+
+#header input{
+    height: 30px;
+    color: blue;
+    font-size: 20px;
+    position: absolute;
+    top: 25px;
+}
+.logo_img{
+    float: left;
+    width: 80px;
+    height: 70px;
+}
+
+/*登录页面CSS样式  */
+#login_header{
+    height: 80px;
+    width: 1200px;
+}
+
+.login_banner{
+    height:475px;
+    background-color: rgb(0, 170, 160);
+}
+
+.login_form{
+    height:310px;
+    width:406px;
+    float:right;
+    margin-right:397px;
+    margin-top: 80px;
+    background-color: #fff;
+}
+
+#content {
+    height: 475px;
+    width: 1200px;
+}
+
+.login_box{
+    margin: 20px;
+    height: 260px;
+    width: 366px;
+}
+
+
+
+
+h1 {
+    font-size: 20px;
+}
+.msg_cont{
+    background: none repeat scroll 0 0 #fff6d2;
+    border: 1px solid #ffe57d;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px 10px 3px 40px;
+    position: relative;
+    border: none;
+}
+
+.msg_cont b {
+    background: url("../img/pwd-icons-new.png") no-repeat scroll -104px -22px rgba(0, 0, 0, 0);
+    display: block;
+    height: 17px;
+    left: 10px;
+    margin-top: -8px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+
+
+.form .itxt {
+    border: 0 none;
+    float: none;
+    font-family: "宋体";
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+    width: 220px;
+    border: 1px #e3e3e3 solid;
+}
+
+#sub_btn{
+    background-color: rgb(0, 170, 160);
+    border: none;
+    color: #fff;
+    width: 360px;
+    margin-top: -10px;
+    height: 40px;
+}
+
+#l_content {
+    float: left;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+#l_content span {
+    font-size: 60px;
+    color: white;
+}
+
+.tit {
+    height: 30px;
+}
+
+.tit h1 {
+    float: left;
+    margin-top: 5px;
+}
+
+.tit a {
+    float: left;
+    margin-top: 5px;
+    color: red;
+    text-decoration: none;
+}
+
+.tit .errorMsg {
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: red;
+}
+/*个人首页CSS样式  */
+#personal_body{
+    background-image: url("../img/personal.jpg");
+    background-size: 100% 100%;
+}
+#personal_header {
+    text-align: center;
+    margin: 0px;
+    height: 70px;
+    background-color: #d2bfa5;
+}
+#personal_select{
+    margin: 10px;
+    width: 200px;
+    height: 590px;
+}
+#personal_table{
+    width: 200px;
+    height: 550px;
+    font-size: 15px;
+    background-color: #d2bfa5;
+}
+a{
+    color: blue;
+}
+#personal_function{
+    text-align: center;
+    margin-top: 0px;
+}
+#personal_function input{
+    font-family: 华文琥珀;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    color: #666666;
+}
+td img{
+    width: 80px;
+    height: 80px;
+}
+#books_table{
+    width: 1260px;
+    text-align: center;
+    background-color: white;
+    border: black 1px solid;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-collapse: collapse;
+}
+#books_table tr td{
+    border: black 1px solid;
+}
+#books_table tr th{
+    border: black 1px solid;
+}
+.table_mark{
+    width: 1260px;
+    text-align: center;
+    margin: 0px;
+    margin-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-family: 华文琥珀;
+    font-size: 20px;
+    color: rgb(107, 104, 104);
+}
+.back{
+    float: right;
+}
+.back_left{
+    float: left;
+}
+/*注册成功*/
+#regist_success{
+    background-image: url("../img/0101.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*分页查询*/
+#page {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.52);
+    width: 1260px;
+}
+/*用户信息*/
+#user_information_table{
+    width: 450px;
+    text-align: center;
+    background-color: white;
+    border: black 1px solid;
+    margin:  auto;
+}
+#user_information_table td{
+    border: black 1px solid;
+    text-align: left;
+}
+#table{
+    float: left;
+    width: 1280px;
+    height: 550px;
+    margin-left: 16px;
+    margin-top: 10px;
+    background-color: rgb(11, 196, 174);
+}
+.hotbooks{
+    margin: 10px 20px 0px 80px;
+    float: left;
+    width: 180px;
+    height: 220px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.hotimg{
+    width: 140px;
+    height: 160px;
+}
